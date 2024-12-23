@@ -44,4 +44,5 @@ with open(data_file, 'w', encoding='utf-8') as df:
 		df.write("</div>")
 	df.write("</div>")
 	df.write("</html>")
+	df.close()
 
